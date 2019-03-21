@@ -1,0 +1,904 @@
+The target system is: Android - 1 - aarch64
+The host system is: Linux - 3.10.0-514.el7.x86_64 - x86_64
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_710a3/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_710a3.dir/build.make CMakeFiles/cmTC_710a3.dir/build
+gmake[1]: 进入目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_710a3.dir/testCXXCompiler.cxx.o
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot   -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/include -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sources/android/support/include -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11   -fPIE   -o CMakeFiles/cmTC_710a3.dir/testCXXCompiler.cxx.o -c /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_710a3
+/home/panxiaogong/3rdparty/cmake-3.14.0-rc2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_710a3.dir/link.txt --verbose=1
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot  -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -L/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   CMakeFiles/cmTC_710a3.dir/testCXXCompiler.cxx.o  -o cmTC_710a3 -latomic -lm "/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++.so" 
+gmake[1]: 离开目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_a1d83/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_a1d83.dir/build.make CMakeFiles/cmTC_a1d83.dir/build
+gmake[1]: Entering directory `/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a1d83.dir/CMakeCXXCompilerABI.cpp.o
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot   -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/include -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sources/android/support/include -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11   -fPIE   -v -o CMakeFiles/cmTC_a1d83.dir/CMakeCXXCompilerABI.cpp.o -c /home/panxiaogong/3rdparty/cmake-3.14.0-rc2-Linux-x86_64/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp
+Android clang version 5.0.300080  (based on LLVM 5.0.300080)
+Target: aarch64-none-linux-android
+Thread model: posix
+InstalledDir: /home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin
+Found candidate GCC installation: /home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x
+Selected GCC installation: /home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++" -cc1 -triple aarch64-none-linux-android -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +neon -target-abi aapcs -backend-option -aarch64-fix-cortex-a53-835769=1 -target-linker-version 2.24 -v -dwarf-column-info -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -ffunction-sections -coverage-notes-file /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_a1d83.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080 -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/include -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sources/android/support/include -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++abi/include -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D __ANDROID_API__=27 -D ANDROID -isysroot /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot -internal-isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/local/include -internal-isystem /home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/include -internal-externc-isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/include -internal-externc-isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include -Wformat -Werror=format-security -std=c++11 -fdeprecated-macro -fdebug-compilation-dir /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -femulated-tls -stack-protector 2 -fallow-half-arguments-and-returns -fno-signed-char -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_a1d83.dir/CMakeCXXCompilerABI.cpp.o -x c++ /home/panxiaogong/3rdparty/cmake-3.14.0-rc2-Linux-x86_64/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 5.0.300080 based upon LLVM 5.0.300080 default target x86_64-unknown-linux
+ignoring nonexistent directory "/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/local/include"
+ignoring nonexistent directory "/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/include
+ /home/panxiaogong/3rdparty/android-ndk-r16b/sources/android/support/include
+ /home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++abi/include
+ /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android
+ /home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/include
+ /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include
+End of search list.
+Linking CXX executable cmTC_a1d83
+/home/panxiaogong/3rdparty/cmake-3.14.0-rc2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1d83.dir/link.txt --verbose=1
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot  -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -L/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE  -v CMakeFiles/cmTC_a1d83.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a1d83 
+Android clang version 5.0.300080  (based on LLVM 5.0.300080)
+Target: aarch64-none-linux-android
+Thread model: posix
+InstalledDir: /home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin
+Found candidate GCC installation: /home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x
+Selected GCC installation: /home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld" --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64 -pie --fix-cortex-a53-843419 --no-add-needed --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_a1d83 /home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64/usr/lib/crtbegin_dynamic.o -L/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -L/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/aarch64 -L/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_a1d83.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64/usr/lib/crtend_android.o
+gmake[1]: Leaving directory `/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/include]
+    add: [/home/panxiaogong/3rdparty/android-ndk-r16b/sources/android/support/include]
+    add: [/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++abi/include]
+    add: [/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android]
+    add: [/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/include]
+    add: [/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include]
+  end of search list found
+  implicit include dirs: [/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/include;/home/panxiaogong/3rdparty/android-ndk-r16b/sources/android/support/include;/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++abi/include;/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android;/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/include;/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(aarch64-linux-android-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_a1d83/fast ]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_a1d83.dir/build.make CMakeFiles/cmTC_a1d83.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_a1d83.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot   -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/include -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sources/android/support/include -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11   -fPIE   -v -o CMakeFiles/cmTC_a1d83.dir/CMakeCXXCompilerABI.cpp.o -c /home/panxiaogong/3rdparty/cmake-3.14.0-rc2-Linux-x86_64/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
+  ignore line: [Target: aarch64-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  ignore line: [Selected GCC installation: /home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [ "/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++" -cc1 -triple aarch64-none-linux-android -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +neon -target-abi aapcs -backend-option -aarch64-fix-cortex-a53-835769=1 -target-linker-version 2.24 -v -dwarf-column-info -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -ffunction-sections -coverage-notes-file /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_a1d83.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080 -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/include -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sources/android/support/include -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++abi/include -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D __ANDROID_API__=27 -D ANDROID -isysroot /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot -internal-isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/local/include -internal-isystem /home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/include -internal-externc-isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/include -internal-externc-isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include -Wformat -Werror=format-security -std=c++11 -fdeprecated-macro -fdebug-compilation-dir /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -femulated-tls -stack-protector 2 -fallow-half-arguments-and-returns -fno-signed-char -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_a1d83.dir/CMakeCXXCompilerABI.cpp.o -x c++ /home/panxiaogong/3rdparty/cmake-3.14.0-rc2-Linux-x86_64/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 5.0.300080 based upon LLVM 5.0.300080 default target x86_64-unknown-linux]
+  ignore line: [ignoring nonexistent directory "/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/include]
+  ignore line: [ /home/panxiaogong/3rdparty/android-ndk-r16b/sources/android/support/include]
+  ignore line: [ /home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++abi/include]
+  ignore line: [ /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android]
+  ignore line: [ /home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/include]
+  ignore line: [ /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_a1d83]
+  ignore line: [/home/panxiaogong/3rdparty/cmake-3.14.0-rc2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1d83.dir/link.txt --verbose=1]
+  ignore line: [/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot  -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -L/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE  -v CMakeFiles/cmTC_a1d83.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a1d83 ]
+  ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
+  ignore line: [Target: aarch64-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  ignore line: [Selected GCC installation: /home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld" --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64 -pie --fix-cortex-a53-843419 --no-add-needed --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_a1d83 /home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64/usr/lib/crtbegin_dynamic.o -L/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -L/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/aarch64 -L/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_a1d83.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64/usr/lib/crtend_android.o]
+    arg [/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld] ==> ignore
+    arg [--sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64] ==> ignore
+    arg [-pie] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [aarch64linux] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_a1d83] ==> ignore
+    arg [/home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a] ==> dir [/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a]
+    arg [-L/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/aarch64] ==> dir [/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/aarch64]
+    arg [-L/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x] ==> dir [/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+    arg [-L/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64] ==> dir [/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64]
+    arg [-L/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib] ==> dir [/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib]
+    arg [-L/home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64/usr/lib] ==> dir [/home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64/usr/lib]
+    arg [--exclude-libs] ==> ignore
+    arg [libgcc.a] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libatomic.a] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_a1d83.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [/home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64/usr/lib/crtend_android.o] ==> ignore
+  collapse library dir [/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a] ==> [/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a]
+  collapse library dir [/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/aarch64] ==> [/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/aarch64]
+  collapse library dir [/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x] ==> [/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  collapse library dir [/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64] ==> [/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/aarch64-linux-android/lib64]
+  collapse library dir [/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib] ==> [/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/aarch64-linux-android/lib]
+  collapse library dir [/home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64/usr/lib] ==> [/home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64/usr/lib]
+  implicit libs: [stdc++;m;gcc;gcc;dl;c;gcc;gcc;dl]
+  implicit dirs: [/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a;/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/aarch64;/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x;/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/aarch64-linux-android/lib64;/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/aarch64-linux-android/lib;/home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_45a3e/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_45a3e.dir/build.make CMakeFiles/cmTC_45a3e.dir/build
+gmake[1]: 进入目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_45a3e.dir/feature_tests.cxx.o
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot   -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/include -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sources/android/support/include -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11   -fPIE   -std=c++1z -o CMakeFiles/cmTC_45a3e.dir/feature_tests.cxx.o -c /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_45a3e
+/home/panxiaogong/3rdparty/cmake-3.14.0-rc2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45a3e.dir/link.txt --verbose=1
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot  -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -L/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   CMakeFiles/cmTC_45a3e.dir/feature_tests.cxx.o  -o cmTC_45a3e -latomic -lm "/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++.so" 
+gmake[1]: 离开目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_c05e3/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_c05e3.dir/build.make CMakeFiles/cmTC_c05e3.dir/build
+gmake[1]: 进入目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_c05e3.dir/feature_tests.cxx.o
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot   -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/include -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sources/android/support/include -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11   -fPIE   -std=c++14 -o CMakeFiles/cmTC_c05e3.dir/feature_tests.cxx.o -c /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c05e3
+/home/panxiaogong/3rdparty/cmake-3.14.0-rc2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c05e3.dir/link.txt --verbose=1
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot  -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -L/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   CMakeFiles/cmTC_c05e3.dir/feature_tests.cxx.o  -o cmTC_c05e3 -latomic -lm "/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++.so" 
+gmake[1]: 离开目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_96281/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_96281.dir/build.make CMakeFiles/cmTC_96281.dir/build
+gmake[1]: 进入目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_96281.dir/feature_tests.cxx.o
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot   -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/include -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sources/android/support/include -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11   -fPIE   -std=c++11 -o CMakeFiles/cmTC_96281.dir/feature_tests.cxx.o -c /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_96281
+/home/panxiaogong/3rdparty/cmake-3.14.0-rc2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96281.dir/link.txt --verbose=1
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot  -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -L/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   CMakeFiles/cmTC_96281.dir/feature_tests.cxx.o  -o cmTC_96281 -latomic -lm "/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++.so" 
+gmake[1]: 离开目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_99ed2/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_99ed2.dir/build.make CMakeFiles/cmTC_99ed2.dir/build
+gmake[1]: 进入目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_99ed2.dir/feature_tests.cxx.o
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot   -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/include -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sources/android/support/include -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11   -fPIE   -std=c++98 -o CMakeFiles/cmTC_99ed2.dir/feature_tests.cxx.o -c /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_99ed2
+/home/panxiaogong/3rdparty/cmake-3.14.0-rc2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99ed2.dir/link.txt --verbose=1
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot  -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -L/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   CMakeFiles/cmTC_99ed2.dir/feature_tests.cxx.o  -o cmTC_99ed2 -latomic -lm "/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++.so" 
+gmake[1]: 离开目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_be054/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_be054.dir/build.make CMakeFiles/cmTC_be054.dir/build
+gmake[1]: 进入目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_be054.dir/testCCompiler.c.o
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot   -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE   -o CMakeFiles/cmTC_be054.dir/testCCompiler.c.o   -c /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_be054
+/home/panxiaogong/3rdparty/cmake-3.14.0-rc2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be054.dir/link.txt --verbose=1
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -L/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   CMakeFiles/cmTC_be054.dir/testCCompiler.c.o  -o cmTC_be054 -latomic -lm 
+gmake[1]: 离开目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_a71ee/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_a71ee.dir/build.make CMakeFiles/cmTC_a71ee.dir/build
+gmake[1]: Entering directory `/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a71ee.dir/CMakeCCompilerABI.c.o
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot   -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE   -v -o CMakeFiles/cmTC_a71ee.dir/CMakeCCompilerABI.c.o   -c /home/panxiaogong/3rdparty/cmake-3.14.0-rc2-Linux-x86_64/share/cmake-3.14/Modules/CMakeCCompilerABI.c
+Android clang version 5.0.300080  (based on LLVM 5.0.300080)
+Target: aarch64-none-linux-android
+Thread model: posix
+InstalledDir: /home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin
+Found candidate GCC installation: /home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x
+Selected GCC installation: /home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang" -cc1 -triple aarch64-none-linux-android -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +neon -target-abi aapcs -backend-option -aarch64-fix-cortex-a53-835769=1 -target-linker-version 2.24 -v -dwarf-column-info -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -ffunction-sections -coverage-notes-file /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_a71ee.dir/CMakeCCompilerABI.c.gcno -resource-dir /home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080 -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D __ANDROID_API__=27 -D ANDROID -isysroot /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot -internal-isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/local/include -internal-isystem /home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/include -internal-externc-isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/include -internal-externc-isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include -Wformat -Werror=format-security -fdebug-compilation-dir /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -femulated-tls -stack-protector 2 -fallow-half-arguments-and-returns -fno-signed-char -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_a71ee.dir/CMakeCCompilerABI.c.o -x c /home/panxiaogong/3rdparty/cmake-3.14.0-rc2-Linux-x86_64/share/cmake-3.14/Modules/CMakeCCompilerABI.c
+clang -cc1 version 5.0.300080 based upon LLVM 5.0.300080 default target x86_64-unknown-linux
+ignoring nonexistent directory "/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/local/include"
+ignoring nonexistent directory "/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android
+ /home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/include
+ /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include
+End of search list.
+Linking C executable cmTC_a71ee
+/home/panxiaogong/3rdparty/cmake-3.14.0-rc2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a71ee.dir/link.txt --verbose=1
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -L/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE  -v CMakeFiles/cmTC_a71ee.dir/CMakeCCompilerABI.c.o  -o cmTC_a71ee 
+Android clang version 5.0.300080  (based on LLVM 5.0.300080)
+Target: aarch64-none-linux-android
+Thread model: posix
+InstalledDir: /home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin
+Found candidate GCC installation: /home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x
+Selected GCC installation: /home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld" --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64 -pie --fix-cortex-a53-843419 --no-add-needed --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_a71ee /home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64/usr/lib/crtbegin_dynamic.o -L/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -L/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/aarch64 -L/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_a71ee.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64/usr/lib/crtend_android.o
+gmake[1]: Leaving directory `/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android]
+    add: [/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/include]
+    add: [/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include]
+  end of search list found
+  implicit include dirs: [/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android;/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/include;/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(aarch64-linux-android-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_a71ee/fast ]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_a71ee.dir/build.make CMakeFiles/cmTC_a71ee.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_a71ee.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot   -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE   -v -o CMakeFiles/cmTC_a71ee.dir/CMakeCCompilerABI.c.o   -c /home/panxiaogong/3rdparty/cmake-3.14.0-rc2-Linux-x86_64/share/cmake-3.14/Modules/CMakeCCompilerABI.c]
+  ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
+  ignore line: [Target: aarch64-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  ignore line: [Selected GCC installation: /home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [ "/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang" -cc1 -triple aarch64-none-linux-android -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +neon -target-abi aapcs -backend-option -aarch64-fix-cortex-a53-835769=1 -target-linker-version 2.24 -v -dwarf-column-info -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -ffunction-sections -coverage-notes-file /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_a71ee.dir/CMakeCCompilerABI.c.gcno -resource-dir /home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080 -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D __ANDROID_API__=27 -D ANDROID -isysroot /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot -internal-isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/local/include -internal-isystem /home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/include -internal-externc-isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/include -internal-externc-isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include -Wformat -Werror=format-security -fdebug-compilation-dir /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -femulated-tls -stack-protector 2 -fallow-half-arguments-and-returns -fno-signed-char -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_a71ee.dir/CMakeCCompilerABI.c.o -x c /home/panxiaogong/3rdparty/cmake-3.14.0-rc2-Linux-x86_64/share/cmake-3.14/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 5.0.300080 based upon LLVM 5.0.300080 default target x86_64-unknown-linux]
+  ignore line: [ignoring nonexistent directory "/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android]
+  ignore line: [ /home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/include]
+  ignore line: [ /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_a71ee]
+  ignore line: [/home/panxiaogong/3rdparty/cmake-3.14.0-rc2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a71ee.dir/link.txt --verbose=1]
+  ignore line: [/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -L/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE  -v CMakeFiles/cmTC_a71ee.dir/CMakeCCompilerABI.c.o  -o cmTC_a71ee ]
+  ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
+  ignore line: [Target: aarch64-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  ignore line: [Selected GCC installation: /home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld" --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64 -pie --fix-cortex-a53-843419 --no-add-needed --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_a71ee /home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64/usr/lib/crtbegin_dynamic.o -L/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -L/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/aarch64 -L/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_a71ee.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64/usr/lib/crtend_android.o]
+    arg [/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld] ==> ignore
+    arg [--sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64] ==> ignore
+    arg [-pie] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [aarch64linux] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_a71ee] ==> ignore
+    arg [/home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a] ==> dir [/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a]
+    arg [-L/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/aarch64] ==> dir [/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/aarch64]
+    arg [-L/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x] ==> dir [/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+    arg [-L/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64] ==> dir [/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64]
+    arg [-L/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib] ==> dir [/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib]
+    arg [-L/home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64/usr/lib] ==> dir [/home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64/usr/lib]
+    arg [--exclude-libs] ==> ignore
+    arg [libgcc.a] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libatomic.a] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_a71ee.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [/home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64/usr/lib/crtend_android.o] ==> ignore
+  collapse library dir [/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a] ==> [/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a]
+  collapse library dir [/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/aarch64] ==> [/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/aarch64]
+  collapse library dir [/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x] ==> [/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  collapse library dir [/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64] ==> [/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/aarch64-linux-android/lib64]
+  collapse library dir [/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib] ==> [/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/aarch64-linux-android/lib]
+  collapse library dir [/home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64/usr/lib] ==> [/home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64/usr/lib]
+  implicit libs: [gcc;dl;c;gcc;dl]
+  implicit dirs: [/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a;/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/aarch64;/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x;/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/aarch64-linux-android/lib64;/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/aarch64-linux-android/lib;/home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_4dcf0/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_4dcf0.dir/build.make CMakeFiles/cmTC_4dcf0.dir/build
+gmake[1]: 进入目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_4dcf0.dir/feature_tests.c.o
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot   -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE   -std=c11 -o CMakeFiles/cmTC_4dcf0.dir/feature_tests.c.o   -c /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4dcf0
+/home/panxiaogong/3rdparty/cmake-3.14.0-rc2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4dcf0.dir/link.txt --verbose=1
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -L/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   CMakeFiles/cmTC_4dcf0.dir/feature_tests.c.o  -o cmTC_4dcf0 -latomic -lm 
+gmake[1]: 离开目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_233d6/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_233d6.dir/build.make CMakeFiles/cmTC_233d6.dir/build
+gmake[1]: 进入目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_233d6.dir/feature_tests.c.o
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot   -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE   -std=c99 -o CMakeFiles/cmTC_233d6.dir/feature_tests.c.o   -c /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/feature_tests.c
+Linking C executable cmTC_233d6
+/home/panxiaogong/3rdparty/cmake-3.14.0-rc2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_233d6.dir/link.txt --verbose=1
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -L/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   CMakeFiles/cmTC_233d6.dir/feature_tests.c.o  -o cmTC_233d6 -latomic -lm 
+gmake[1]: 离开目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_64317/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_64317.dir/build.make CMakeFiles/cmTC_64317.dir/build
+gmake[1]: 进入目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_64317.dir/feature_tests.c.o
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot   -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -fPIE   -std=c90 -o CMakeFiles/cmTC_64317.dir/feature_tests.c.o   -c /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/feature_tests.c
+Linking C executable cmTC_64317
+/home/panxiaogong/3rdparty/cmake-3.14.0-rc2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64317.dir/link.txt --verbose=1
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -L/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   CMakeFiles/cmTC_64317.dir/feature_tests.c.o  -o cmTC_64317 -latomic -lm 
+gmake[1]: 离开目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_decf2/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_decf2.dir/build.make CMakeFiles/cmTC_decf2.dir/build
+gmake[1]: 进入目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_decf2.dir/CheckIncludeFile.c.o
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot   -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security    -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Qunused-arguments -fomit-frame-pointer -fvisibility=hidden -fvisibility-inlines-hidden  -O2 -DNDEBUG  -fPIE   -o CMakeFiles/cmTC_decf2.dir/CheckIncludeFile.c.o   -c /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_decf2
+/home/panxiaogong/3rdparty/cmake-3.14.0-rc2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_decf2.dir/link.txt --verbose=1
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security    -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Qunused-arguments -fomit-frame-pointer -fvisibility=hidden -fvisibility-inlines-hidden  -O2 -DNDEBUG   -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -L/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   CMakeFiles/cmTC_decf2.dir/CheckIncludeFile.c.o  -o cmTC_decf2 -latomic -lm 
+gmake[1]: 离开目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_de201/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_de201.dir/build.make CMakeFiles/cmTC_de201.dir/build
+gmake[1]: 进入目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_de201.dir/CheckIncludeFile.c.o
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot   -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security    -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Qunused-arguments -fomit-frame-pointer -fvisibility=hidden -fvisibility-inlines-hidden  -O2 -DNDEBUG  -fPIE   -o CMakeFiles/cmTC_de201.dir/CheckIncludeFile.c.o   -c /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_de201
+/home/panxiaogong/3rdparty/cmake-3.14.0-rc2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de201.dir/link.txt --verbose=1
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security    -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Qunused-arguments -fomit-frame-pointer -fvisibility=hidden -fvisibility-inlines-hidden  -O2 -DNDEBUG   -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -L/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   CMakeFiles/cmTC_de201.dir/CheckIncludeFile.c.o  -o cmTC_de201 -latomic -lm 
+gmake[1]: 离开目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_e3a03/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_e3a03.dir/build.make CMakeFiles/cmTC_e3a03.dir/build
+gmake[1]: 进入目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_e3a03.dir/CheckIncludeFile.c.o
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot   -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security    -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Qunused-arguments -fomit-frame-pointer -fvisibility=hidden -fvisibility-inlines-hidden  -O2 -DNDEBUG  -fPIE   -o CMakeFiles/cmTC_e3a03.dir/CheckIncludeFile.c.o   -c /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e3a03
+/home/panxiaogong/3rdparty/cmake-3.14.0-rc2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3a03.dir/link.txt --verbose=1
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security    -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Qunused-arguments -fomit-frame-pointer -fvisibility=hidden -fvisibility-inlines-hidden  -O2 -DNDEBUG   -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -L/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   CMakeFiles/cmTC_e3a03.dir/CheckIncludeFile.c.o  -o cmTC_e3a03 -latomic -lm 
+gmake[1]: 离开目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_2fcda/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_2fcda.dir/build.make CMakeFiles/cmTC_2fcda.dir/build
+gmake[1]: 进入目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_2fcda.dir/CheckIncludeFile.c.o
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot   -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security    -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Qunused-arguments -fomit-frame-pointer -fvisibility=hidden -fvisibility-inlines-hidden  -O2 -DNDEBUG  -fPIE   -o CMakeFiles/cmTC_2fcda.dir/CheckIncludeFile.c.o   -c /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2fcda
+/home/panxiaogong/3rdparty/cmake-3.14.0-rc2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fcda.dir/link.txt --verbose=1
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security    -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Qunused-arguments -fomit-frame-pointer -fvisibility=hidden -fvisibility-inlines-hidden  -O2 -DNDEBUG   -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -L/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   CMakeFiles/cmTC_2fcda.dir/CheckIncludeFile.c.o  -o cmTC_2fcda -latomic -lm 
+gmake[1]: 离开目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_1c555/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_1c555.dir/build.make CMakeFiles/cmTC_1c555.dir/build
+gmake[1]: 进入目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_1c555.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot   -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security    -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Qunused-arguments -fomit-frame-pointer -fvisibility=hidden -fvisibility-inlines-hidden  -O2 -DNDEBUG  -fPIE   -o CMakeFiles/cmTC_1c555.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_1c555
+/home/panxiaogong/3rdparty/cmake-3.14.0-rc2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c555.dir/link.txt --verbose=1
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security    -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Qunused-arguments -fomit-frame-pointer -fvisibility=hidden -fvisibility-inlines-hidden  -O2 -DNDEBUG   -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -L/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   CMakeFiles/cmTC_1c555.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_1c555 -latomic -lm 
+gmake[1]: 离开目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_65953/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_65953.dir/build.make CMakeFiles/cmTC_65953.dir/build
+gmake[1]: 进入目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_65953.dir/TestEndianess.c.o
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot   -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security    -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Qunused-arguments -fomit-frame-pointer -fvisibility=hidden -fvisibility-inlines-hidden  -O2 -DNDEBUG  -fPIE   -o CMakeFiles/cmTC_65953.dir/TestEndianess.c.o   -c /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_65953
+/home/panxiaogong/3rdparty/cmake-3.14.0-rc2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65953.dir/link.txt --verbose=1
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security    -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Qunused-arguments -fomit-frame-pointer -fvisibility=hidden -fvisibility-inlines-hidden  -O2 -DNDEBUG   -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -L/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   CMakeFiles/cmTC_65953.dir/TestEndianess.c.o  -o cmTC_65953 -latomic -lm 
+gmake[1]: 离开目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_757e0/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_757e0.dir/build.make CMakeFiles/cmTC_757e0.dir/build
+gmake[1]: 进入目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_757e0.dir/CheckIncludeFile.c.o
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot   -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security    -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Qunused-arguments -fomit-frame-pointer -fvisibility=hidden -fvisibility-inlines-hidden  -O2 -DNDEBUG  -fPIE   -o CMakeFiles/cmTC_757e0.dir/CheckIncludeFile.c.o   -c /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_757e0
+/home/panxiaogong/3rdparty/cmake-3.14.0-rc2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_757e0.dir/link.txt --verbose=1
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security    -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Qunused-arguments -fomit-frame-pointer -fvisibility=hidden -fvisibility-inlines-hidden  -O2 -DNDEBUG   -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -L/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   CMakeFiles/cmTC_757e0.dir/CheckIncludeFile.c.o  -o cmTC_757e0 -latomic -lm 
+gmake[1]: 离开目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_79af3/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_79af3.dir/build.make CMakeFiles/cmTC_79af3.dir/build
+gmake[1]: 进入目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_79af3.dir/CheckIncludeFile.c.o
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot   -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security    -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Qunused-arguments -fomit-frame-pointer -fvisibility=hidden -fvisibility-inlines-hidden  -O2 -DNDEBUG  -fPIE   -o CMakeFiles/cmTC_79af3.dir/CheckIncludeFile.c.o   -c /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_79af3
+/home/panxiaogong/3rdparty/cmake-3.14.0-rc2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79af3.dir/link.txt --verbose=1
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security    -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Qunused-arguments -fomit-frame-pointer -fvisibility=hidden -fvisibility-inlines-hidden  -O2 -DNDEBUG   -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -L/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   CMakeFiles/cmTC_79af3.dir/CheckIncludeFile.c.o  -o cmTC_79af3 -latomic -lm 
+gmake[1]: 离开目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+
+
+Determining if the function mmap exists passed with the following output:
+Change Dir: /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_12c02/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_12c02.dir/build.make CMakeFiles/cmTC_12c02.dir/build
+gmake[1]: 进入目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_12c02.dir/CheckFunctionExists.c.o
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot   -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security    -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Qunused-arguments -fomit-frame-pointer -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=mmap -O2 -DNDEBUG  -fPIE   -o CMakeFiles/cmTC_12c02.dir/CheckFunctionExists.c.o   -c /home/panxiaogong/3rdparty/cmake-3.14.0-rc2-Linux-x86_64/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_12c02
+/home/panxiaogong/3rdparty/cmake-3.14.0-rc2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12c02.dir/link.txt --verbose=1
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security    -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Qunused-arguments -fomit-frame-pointer -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=mmap -O2 -DNDEBUG   -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -L/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   CMakeFiles/cmTC_12c02.dir/CheckFunctionExists.c.o  -o cmTC_12c02 -latomic -lm 
+gmake[1]: 离开目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file search.h exists passed with the following output:
+Change Dir: /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_1a7c2/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_1a7c2.dir/build.make CMakeFiles/cmTC_1a7c2.dir/build
+gmake[1]: 进入目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_1a7c2.dir/CheckIncludeFile.c.o
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot   -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security    -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Qunused-arguments -fomit-frame-pointer -fvisibility=hidden -fvisibility-inlines-hidden  -O2 -DNDEBUG  -fPIE   -o CMakeFiles/cmTC_1a7c2.dir/CheckIncludeFile.c.o   -c /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1a7c2
+/home/panxiaogong/3rdparty/cmake-3.14.0-rc2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a7c2.dir/link.txt --verbose=1
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security    -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Qunused-arguments -fomit-frame-pointer -fvisibility=hidden -fvisibility-inlines-hidden  -O2 -DNDEBUG   -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -L/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   CMakeFiles/cmTC_1a7c2.dir/CheckIncludeFile.c.o  -o cmTC_1a7c2 -latomic -lm 
+gmake[1]: 离开目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_d1680/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_d1680.dir/build.make CMakeFiles/cmTC_d1680.dir/build
+gmake[1]: 进入目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_d1680.dir/CheckIncludeFile.c.o
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot   -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security    -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Qunused-arguments -fomit-frame-pointer -fvisibility=hidden -fvisibility-inlines-hidden  -O2 -DNDEBUG  -fPIE   -o CMakeFiles/cmTC_d1680.dir/CheckIncludeFile.c.o   -c /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d1680
+/home/panxiaogong/3rdparty/cmake-3.14.0-rc2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1680.dir/link.txt --verbose=1
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security    -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Qunused-arguments -fomit-frame-pointer -fvisibility=hidden -fvisibility-inlines-hidden  -O2 -DNDEBUG   -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -L/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   CMakeFiles/cmTC_d1680.dir/CheckIncludeFile.c.o  -o cmTC_d1680 -latomic -lm 
+gmake[1]: 离开目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_20b9f/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_20b9f.dir/build.make CMakeFiles/cmTC_20b9f.dir/build
+gmake[1]: 进入目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_20b9f.dir/CheckIncludeFile.c.o
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot   -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security    -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Qunused-arguments -fomit-frame-pointer -fvisibility=hidden -fvisibility-inlines-hidden  -O2 -DNDEBUG  -fPIE   -o CMakeFiles/cmTC_20b9f.dir/CheckIncludeFile.c.o   -c /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_20b9f
+/home/panxiaogong/3rdparty/cmake-3.14.0-rc2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20b9f.dir/link.txt --verbose=1
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security    -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Qunused-arguments -fomit-frame-pointer -fvisibility=hidden -fvisibility-inlines-hidden  -O2 -DNDEBUG   -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -L/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   CMakeFiles/cmTC_20b9f.dir/CheckIncludeFile.c.o  -o cmTC_20b9f -latomic -lm 
+gmake[1]: 离开目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file semaphore.h exists passed with the following output:
+Change Dir: /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_90aa1/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_90aa1.dir/build.make CMakeFiles/cmTC_90aa1.dir/build
+gmake[1]: 进入目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_90aa1.dir/CheckIncludeFile.c.o
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot   -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security    -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Qunused-arguments -fomit-frame-pointer -fvisibility=hidden -fvisibility-inlines-hidden  -O2 -DNDEBUG  -fPIE   -o CMakeFiles/cmTC_90aa1.dir/CheckIncludeFile.c.o   -c /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_90aa1
+/home/panxiaogong/3rdparty/cmake-3.14.0-rc2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90aa1.dir/link.txt --verbose=1
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security    -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Qunused-arguments -fomit-frame-pointer -fvisibility=hidden -fvisibility-inlines-hidden  -O2 -DNDEBUG   -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -L/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   CMakeFiles/cmTC_90aa1.dir/CheckIncludeFile.c.o  -o cmTC_90aa1 -latomic -lm 
+gmake[1]: 离开目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file linux/videodev2.h exists passed with the following output:
+Change Dir: /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_fc23d/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_fc23d.dir/build.make CMakeFiles/cmTC_fc23d.dir/build
+gmake[1]: 进入目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_fc23d.dir/CheckIncludeFile.c.o
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot   -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security    -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Qunused-arguments -fomit-frame-pointer -fvisibility=hidden -fvisibility-inlines-hidden  -O2 -DNDEBUG  -fPIE   -o CMakeFiles/cmTC_fc23d.dir/CheckIncludeFile.c.o   -c /home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fc23d
+/home/panxiaogong/3rdparty/cmake-3.14.0-rc2-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc23d.dir/link.txt --verbose=1
+/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android --gcc-toolchain=/home/panxiaogong/3rdparty/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/panxiaogong/3rdparty/android-ndk-r16b/sysroot -isystem /home/panxiaogong/3rdparty/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=27 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security    -fsigned-char -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -Qunused-arguments -fomit-frame-pointer -fvisibility=hidden -fvisibility-inlines-hidden  -O2 -DNDEBUG   -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/panxiaogong/3rdparty/android-ndk-r16b/platforms/android-27/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -L/home/panxiaogong/3rdparty/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   CMakeFiles/cmTC_fc23d.dir/CheckIncludeFile.c.o  -o cmTC_fc23d -latomic -lm 
+gmake[1]: 离开目录“/home/panxiaogong/3rdparty/android/opencv-3.1.0/build_android_v4l/CMakeFiles/CMakeTmp”
+
+

@@ -1,0 +1,3 @@
+/home/panxiaogong/3rdparty/android/opencv-3.1.0/samples/build/CMakeFiles/rebuild_cache.dir
+/home/panxiaogong/3rdparty/android/opencv-3.1.0/samples/build/CMakeFiles/demo_video.dir
+/home/panxiaogong/3rdparty/android/opencv-3.1.0/samples/build/CMakeFiles/edit_cache.dir
