@@ -34,4 +34,5 @@ Summary of guidelines:
 需要更改CMakeList.txt 和 cmake 里面的 OpenCVFindLibsVideo.cmake：使用对比工具查看更改如下：
 
 ![img1](https://github.com/eudora-jia/android-ffmepg-videocapture/blob/master/img-folder/%E5%AF%B9%E6%AF%941.jpg)
+![img2]()
       
