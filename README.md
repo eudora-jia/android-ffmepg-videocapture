@@ -20,3 +20,13 @@ Summary of guidelines:
 * Include tests and documentation;
 * Clean up "oops" commits before submitting;
 * Follow the coding style guide.
+
+
+
+资源：opencv linux 版本源码，ffmpeg linux 版本源码
+
+编译环境：linux，ndk16rc
+
+编译步骤，直接进行build.sh 即可
+
+需要更改CMakeList.txt 和 cmake 里面的 OpenCVFindLibsVideo.cmake：使用对比工具查看更改如下：
