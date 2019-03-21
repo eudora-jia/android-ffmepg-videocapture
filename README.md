@@ -1,4 +1,4 @@
-####编译实现了android 中使用c++ VideoCapture 读取MP4 
+#### 编译实现了android 中使用c++ VideoCapture 读取MP4 
 
 [![Gittip](http://img.shields.io/gittip/OpenCV.png)](https://www.gittip.com/OpenCV/)
 
