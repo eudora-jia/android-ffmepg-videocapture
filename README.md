@@ -29,4 +29,6 @@ Summary of guidelines:
 
 编译步骤，直接进行build.sh 即可
 
+具体参考https://blog.csdn.net/baidu_29221887/article/details/88655217 
+
 需要更改CMakeList.txt 和 cmake 里面的 OpenCVFindLibsVideo.cmake：使用对比工具查看更改如下：
